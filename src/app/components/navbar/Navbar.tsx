@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import brandLogo from "../../../../public/assets/images/brand.png";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <div className="mx-6 md:mx-14 lg:mx-16">
@@ -15,7 +16,13 @@ const Navbar = () => {
 
           <h1 className="font-bold text-xl">Red Cars</h1>
         </div>
-        <button>Sing In</button>
+        <Link
+          className="rounded-full bg-black text-white px-2 hover:bg-red-800 font-semibold"
+          target="_blank"
+          href={"https://www.linkedin.com/in/mask-shakil/"}
+        >
+          About
+        </Link>
       </nav>
     </div>
   );

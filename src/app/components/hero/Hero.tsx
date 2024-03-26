@@ -6,7 +6,7 @@ import iosApp from "../../../../public/assets/images/apple-store.png";
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center ">
-      <section className="flex flex-col justify-center gap-y-3 mx-6 md:14 lg:mx-16">
+      <section className="flex flex-col justify-center gap-y-3 ">
         <h1 className="font-bold text-xl md:text-2xl lg:text-3xl leading-8">
           Find, book and rent a car{" "}
           <span className="text-red-700">Easily !</span>
